@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{8b1e4097-6fde-4481-860f-a28426ebbe41}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	bStartButton : BOOL; (* Yeşil Başlatma Butonu *)
+	bStopButton : BOOL; (* Kırmızı Durdurma Butonu*)
+	bMotor : BOOL; (*Çalıştıracağımız Motor*)
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF bStopButton THEN
+	bMotor := FALSE;
+	
+ELSIF bStartButton THEN
+	bMotor := TRUE;
+END_IF]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

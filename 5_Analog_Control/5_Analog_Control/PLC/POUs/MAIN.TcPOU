@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{336c7725-c845-452d-b520-242298a68d82}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	nRawAnalogInput : INT;
+	fMotorSpeedPercent: REAL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF nRawAnalogInput < 0 THEN
+	nRawAnalogInput :=0;
+	
+ELSIF nRawAnalogInput > 32767 THEN
+	nRawAnalogInput := 32767;
+END_IF
+
+fMotorSpeedPercent := (INT_TO_REAL(nRawAnalogInput)/32767.0)*100.0;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

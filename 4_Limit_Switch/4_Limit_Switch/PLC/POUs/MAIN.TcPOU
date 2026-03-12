@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{ffc270da-eaee-4f29-8404-a7a9f174d354}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	bStartButton : BOOL;
+	bStopButton: BOOL;
+	bLimitSwitch: BOOL;
+	bMotor: BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF bStopButton OR bLimitSwitch THEN
+    bMotor := FALSE;         
+    bStartButton := FALSE;   // <-- Doğru yer burası! (Sadece Stop veya Switch aktifse çalışır)
+
+ELSIF bStartButton THEN
+    bMotor := TRUE;          // <-- Buraya bStartButton := FALSE YAZMIYORUZ!
+END_IF]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

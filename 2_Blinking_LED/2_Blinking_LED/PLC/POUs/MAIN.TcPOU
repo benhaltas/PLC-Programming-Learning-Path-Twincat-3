@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{2a67b1bd-69a0-4a73-bbd9-c4d61c319d4e}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+    bLed : BOOL;
+    fbTimer : TON;
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[fbTimer(IN := NOT fbTimer.Q, PT := T#1S);
+
+IF fbTimer.Q THEN
+    bLed := NOT bLed;
+END_IF]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

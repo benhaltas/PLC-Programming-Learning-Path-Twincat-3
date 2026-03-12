@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <Visu Name="Visualization" Id="{b340f20a-eb51-40ef-9665-9e008c5912be}">
+    <XmlArchive>
+      <Data>
+        <o xml:space="preserve" t="VisualObject">
+          <n n="LastVisuLanguageModelEntry" />
+          <v n="UniqueIdGenerator">"15"</v>
+          <o n="VisualElemList" t="VisualElemList">
+            <l n="VisualElementList" t="VisualElemCollection" cet="GenericVisualElem">
+              <o>
+                <a n="ConfiguredComplexInputs" et="ComplexInput" />
+                <l n="Elements" t="ArrayList" />
+                <n n="VisualElementDescription" />
+                <o n="VisualElemMemberList" t="VisualElemMemberList">
+                  <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
+                    <o>
+                      <v n="Id">2812299069L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">494569607L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">3719097617L</v>
+                      <v n="Value">0</v>
+                    </o>
+                    <o>
+                      <v n="Id">1649127785L</v>
+                      <v n="Value">1526</v>
+                    </o>
+                    <o>
+                      <v n="Id">357335551L</v>
+                      <v n="Value">351</v>
+                    </o>
+                    <o>
+                      <v n="Id">2422045748L</v>
+                      <v n="Value">387</v>
+                    </o>
+                    <o>
+                      <v n="Id">2134141914L</v>
+                      <v n="Value">334</v>
+                    </o>
+                    <o>
+                      <v n="Id">4062784938L</v>
+                      <v n="Value">"Element-Lamp-Lamp1-Yellow"</v>
+                    </o>
+                    <o>
+                      <v n="Id">550940142L</v>
+                      <v n="Value">1719</v>
+                    </o>
+                    <o>
+                      <v n="Id">1473355128L</v>
+                      <v n="Value">518</v>
+                    </o>
+                    <o>
+                      <v n="Id">493260384L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">135947015L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">2678395525L</v>
+                      <v n="Value">1U</v>
+                    </o>
+                    <o>
+                      <v n="Id">2340015797L</v>
+                      <v n="Value">"HCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2565699834L</v>
+                      <v n="Value">"VCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">296037572L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">390574330L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">571893170L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">743958181L</v>
+                      <v n="Value">"MAIN.bMotor"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
+                  </l>
+                </o>
+                <v n="VisualElementName">"Lamp1"</v>
+                <v n="VisualElementTypeName">"VisuFbElemLamp"</v>
+                <v n="VisualElementIsRectangle">true</v>
+                <v n="VisualElementIdentifier">"GenElemInst_6"</v>
+                <n n="VisualElementOfflinePaintCommands" />
+                <n n="VisualElementFrameInformation" />
+                <d n="VisualElementInputActions" t="Hashtable" />
+                <v n="VisualElementIdentification">{17a4a502-51eb-48f0-8e8a-bf6b28562506}</v>
+                <v n="VisualElementOwningObjectGuid">{b340f20a-eb51-40ef-9665-9e008c5912be}</v>
+                <a n="LMGuids" et="Guid" />
+                <d n="SubElements" t="Hashtable" />
+                <v n="VisualElementId">6</v>
+                <l n="UserManagementAccessRights" t="ArrayList" />
+                <v n="AnimationDuration">"0"</v>
+                <v n="BringToForeground">""</v>
+                <v n="ElementVersion" t="Byte">1</v>
+                <n n="TabOrder" />
+              </o>
+              <o>
+                <a n="ConfiguredComplexInputs" et="ComplexInput" />
+                <l n="Elements" t="ArrayList" />
+                <n n="VisualElementDescription" />
+                <o n="VisualElemMemberList" t="VisualElemMemberList">
+                  <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
+                    <o>
+                      <v n="Id">571893170L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">1931512087L</v>
+                      <v n="Value">"TOGGLE"</v>
+                    </o>
+                    <o>
+                      <v n="Id">300685745L</v>
+                      <v n="Value">false</v>
+                    </o>
+                    <o>
+                      <v n="Id">2812299069L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">494569607L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">3719097617L</v>
+                      <v n="Value">0</v>
+                    </o>
+                    <o>
+                      <v n="Id">1649127785L</v>
+                      <v n="Value">269</v>
+                    </o>
+                    <o>
+                      <v n="Id">357335551L</v>
+                      <v n="Value">384</v>
+                    </o>
+                    <o>
+                      <v n="Id">2422045748L</v>
+                      <v n="Value">418</v>
+                    </o>
+                    <o>
+                      <v n="Id">2134141914L</v>
+                      <v n="Value">286</v>
+                    </o>
+                    <o>
+                      <v n="Id">4062784938L</v>
+                      <v n="Value">"Element-Switch-PushSwitch-Red"</v>
+                    </o>
+                    <o>
+                      <v n="Id">550940142L</v>
+                      <v n="Value">478</v>
+                    </o>
+                    <o>
+                      <v n="Id">1473355128L</v>
+                      <v n="Value">527</v>
+                    </o>
+                    <o>
+                      <v n="Id">493260384L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">135947015L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">2678395525L</v>
+                      <v n="Value">1U</v>
+                    </o>
+                    <o>
+                      <v n="Id">2340015797L</v>
+                      <v n="Value">"HCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2565699834L</v>
+                      <v n="Value">"VCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">296037572L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">390574330L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
+                    <o>
+                      <v n="Id">743958181L</v>
+                      <v n="Value">"MAIN.bStopButton"</v>
+                    </o>
+                  </l>
+                </o>
+                <v n="VisualElementName">"PushSwitch"</v>
+                <v n="VisualElementTypeName">"VisuFbElemPushSwitch"</v>
+                <v n="VisualElementIsRectangle">true</v>
+                <v n="VisualElementIdentifier">"GenElemInst_7"</v>
+                <n n="VisualElementOfflinePaintCommands" />
+                <n n="VisualElementFrameInformation" />
+                <d n="VisualElementInputActions" t="Hashtable" />
+                <v n="VisualElementIdentification">{2d602a0b-3fe5-4a57-be6f-b8ac79e94091}</v>
+                <v n="VisualElementOwningObjectGuid">{b340f20a-eb51-40ef-9665-9e008c5912be}</v>
+                <a n="LMGuids" et="Guid" />
+                <d n="SubElements" t="Hashtable" />
+                <v n="VisualElementId">7</v>
+                <l n="UserManagementAccessRights" t="ArrayList" />
+                <v n="AnimationDuration">"0"</v>
+                <v n="BringToForeground">""</v>
+                <v n="ElementVersion" t="Byte">1</v>
+                <n n="TabOrder" />
+              </o>
+              <o>
+                <a n="ConfiguredComplexInputs" et="ComplexInput" />
+                <l n="Elements" t="ArrayList" />
+                <n n="VisualElementDescription" />
+                <o n="VisualElemMemberList" t="VisualElemMemberList">
+                  <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
+                    <o>
+                      <v n="Id">571893170L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">1931512087L</v>
+                      <v n="Value">"TOGGLE"</v>
+                    </o>
+                    <o>
+                      <v n="Id">300685745L</v>
+                      <v n="Value">false</v>
+                    </o>
+                    <o>
+                      <v n="Id">2812299069L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">494569607L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">3719097617L</v>
+                      <v n="Value">0</v>
+                    </o>
+                    <o>
+                      <v n="Id">1649127785L</v>
+                      <v n="Value">797</v>
+                    </o>
+                    <o>
+                      <v n="Id">357335551L</v>
+                      <v n="Value">384</v>
+                    </o>
+                    <o>
+                      <v n="Id">2422045748L</v>
+                      <v n="Value">418</v>
+                    </o>
+                    <o>
+                      <v n="Id">2134141914L</v>
+                      <v n="Value">286</v>
+                    </o>
+                    <o>
+                      <v n="Id">4062784938L</v>
+                      <v n="Value">"Element-Switch-PushSwitch-Green"</v>
+                    </o>
+                    <o>
+                      <v n="Id">550940142L</v>
+                      <v n="Value">1006</v>
+                    </o>
+                    <o>
+                      <v n="Id">1473355128L</v>
+                      <v n="Value">527</v>
+                    </o>
+                    <o>
+                      <v n="Id">493260384L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">135947015L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">2678395525L</v>
+                      <v n="Value">1U</v>
+                    </o>
+                    <o>
+                      <v n="Id">2340015797L</v>
+                      <v n="Value">"HCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2565699834L</v>
+                      <v n="Value">"VCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">296037572L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">390574330L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">743958181L</v>
+                      <v n="Value">"MAIN.bStartButton"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
+                  </l>
+                </o>
+                <v n="VisualElementName">"PushSwitch"</v>
+                <v n="VisualElementTypeName">"VisuFbElemPushSwitch"</v>
+                <v n="VisualElementIsRectangle">true</v>
+                <v n="VisualElementIdentifier">"GenElemInst_8"</v>
+                <n n="VisualElementOfflinePaintCommands" />
+                <n n="VisualElementFrameInformation" />
+                <d n="VisualElementInputActions" t="Hashtable" />
+                <v n="VisualElementIdentification">{8df388c5-c686-49de-ac5a-84343ee511b6}</v>
+                <v n="VisualElementOwningObjectGuid">{b340f20a-eb51-40ef-9665-9e008c5912be}</v>
+                <a n="LMGuids" et="Guid" />
+                <d n="SubElements" t="Hashtable" />
+                <v n="VisualElementId">9</v>
+                <l n="UserManagementAccessRights" t="ArrayList" />
+                <v n="AnimationDuration">"0"</v>
+                <v n="BringToForeground">""</v>
+                <v n="ElementVersion" t="Byte">1</v>
+                <n n="TabOrder" />
+              </o>
+            </l>
+            <v n="BackgroundBitmapId">""</v>
+            <v n="BackgroundColor">16777215</v>
+            <o n="Background" t="BackgroundSettings">
+              <n n="BgGradient" />
+              <n n="BgNamedColor" />
+              <v n="BgBmpId">""</v>
+              <v n="BgUseBmp">false</v>
+              <v n="BgColor">false</v>
+              <v n="BgUseColor">16777215</v>
+              <v n="BgUseGradient">false</v>
+            </o>
+            <v n="AllElementsHaveDynamicVisibility">false</v>
+          </o>
+          <o n="GeneratedLMMDescriptions" t="GeneratedLanguageModelEntriesData">
+            <o n="GeneratedVisuFbDescription" t="GenericFbDescription">
+              <d n="FbMethods" t="CaseInsensitiveHashtable" ckt="String" cvt="Guid">
+                <v>AreAllElementsHidden</v>
+                <v>60b6196e-79af-574d-8af4-79cd642babb7</v>
+                <v>ContainsPoint</v>
+                <v>8e35d175-6d6e-4478-a1a7-daa544154189</v>
+                <v>Destruct</v>
+                <v>a21ad1fe-05a2-4652-a3c3-0734fd28a887</v>
+                <v>ElementInfo</v>
+                <v>8eb6fe83-494e-4780-b23d-249325985a53</v>
+                <v>FB_Exit</v>
+                <v>525ba8a8-8acb-486b-9455-65a8eeaaf9a1</v>
+                <v>FB_Reinit</v>
+                <v>3ae2ccf8-8e6a-4afa-9d78-d43ad6bc835f</v>
+                <v>GetCallerNamespace</v>
+                <v>ef4bf66c-3cb8-505b-a807-efa68b1331af</v>
+                <v>GetClientData</v>
+                <v>caa89ae5-2607-4875-a78a-9328dad614c7</v>
+                <v>GetDialogInterface</v>
+                <v>dc4482e5-3967-4631-828a-599b3a1edd44</v>
+                <v>GetDialogInterfaceSize</v>
+                <v>a24332fb-e6a8-4679-8e02-8cae518b8edd</v>
+                <v>GetElementArray</v>
+                <v>e8d8a489-edd3-4613-9ff5-90263ec93b75</v>
+                <v>GetElementIdArray</v>
+                <v>c3abfcfe-71a1-47b7-b37d-d27e9ce64f8a</v>
+                <v>GetElementName</v>
+                <v>d64446aa-8500-5003-b72e-9017434b39f2</v>
+                <v>GetInitializeVersion</v>
+                <v>869455d2-2cfd-44d4-ade3-4546bf567415</v>
+                <v>GetInstance</v>
+                <v>d525ae32-aed0-4921-85e1-fdc042c0bbaa</v>
+                <v>GetLocalUsergroup</v>
+                <v>4698b073-79e4-426d-89cb-80e5a9b46d6c</v>
+                <v>GetName</v>
+                <v>9bb15532-9be6-4a8a-a124-a80ce0d3119d</v>
+                <v>GetNamespace</v>
+                <v>92ac7cb5-1a2f-480d-86c9-7262d14efa1d</v>
+                <v>GetResult</v>
+                <v>028db8af-3463-4f30-a7d0-ceee6bc7c6eb</v>
+                <v>GetSize</v>
+                <v>96c5f6a8-d4ca-4db1-8570-1e3139a377cb</v>
+                <v>GetSurroundingRect</v>
+                <v>80e8708a-4582-45ba-977f-2d4cdc5f7fe6</v>
+                <v>GetTabOrderIdArray</v>
+                <v>09a6f2b8-b47c-5bfa-a794-dfee844a34f8</v>
+                <v>GetText</v>
+                <v>b7a0214d-1158-450d-aee0-9ebd85d012cf</v>
+                <v>GetTextProperties</v>
+                <v>0ca8bb37-6d30-465f-9bbb-e8f0d4ba83bb</v>
+                <v>GetTooltip</v>
+                <v>2391908e-4f13-437f-bddf-9c861fe9397a</v>
+                <v>GetTranslator</v>
+                <v>d877335b-736a-4a70-9a4c-6e5df95f2f90</v>
+                <v>GetUpdateRects</v>
+                <v>3226a3aa-fd13-4729-9e27-707f4fb101e3</v>
+                <v>HandleInput</v>
+                <v>a4f5b977-8fb7-4779-9039-ac611e0ae425</v>
+                <v>HasInputAccess</v>
+                <v>0f8a6219-67c8-467d-8656-6fcf56c02d0a</v>
+                <v>HasInputAccessIntern</v>
+                <v>4ec68015-2520-505d-89d2-fe4e0c8fc8f6</v>
+                <v>HasVisibilityAccess</v>
+                <v>a707e8ed-71e5-4f72-b36c-66d94a973814</v>
+                <v>HasVisibilityAccessIntern</v>
+                <v>95f3a358-fec8-583b-bc87-43c31b1abfe1</v>
+                <v>Initialize</v>
+                <v>817bb626-d005-4f0a-977f-b3ba8f0b8c93</v>
+                <v>IsAntialiasingInactive</v>
+                <v>755d2527-6afd-470e-8cc9-b04e610aa84d</v>
+                <v>Paint</v>
+                <v>65397e08-dea4-4cee-8348-4221fc553ffd</v>
+                <v>SetClientData</v>
+                <v>82222b0e-d447-4dca-a7a6-1578666ed2b8</v>
+                <v>SetContainerSize</v>
+                <v>f3b31c12-37d0-5a49-8abd-3089c6baa091</v>
+                <v>SetDialogInterface</v>
+                <v>30aab334-331c-49b7-a7f8-c7a419bac305</v>
+                <v>SetResult</v>
+                <v>885f42b6-8a31-431f-8f22-1ed4f519abf8</v>
+                <v>SetStaticState</v>
+                <v>af28c15c-7017-4d7a-a004-72331544a728</v>
+                <v>SetVisuFlagsInternal</v>
+                <v>09206408-8a59-4bd2-8aff-42e4ff156d74</v>
+                <v>Update</v>
+                <v>53023f7e-e8cd-4837-acac-52ed1c9b4790</v>
+              </d>
+              <d n="FbProperties" t="CaseInsensitiveHashtable" ckt="String" cvt="Guid">
+                <v>__getContainer</v>
+                <v>60e2446b-5147-475f-a8a5-b8e9a7d6f7fc</v>
+                <v>__getVisu</v>
+                <v>3201ba1e-b40e-440c-932c-899ec0bad53c</v>
+              </d>
+              <v n="FbName">"NotImportant"</v>
+              <v n="FbGuid">{b340f20a-eb51-40ef-9665-9e008c5912be}</v>
+            </o>
+            <v n="GeneratedGlobalVisuVarsGuid">{eb2c6d88-e93e-4885-b764-7e2c71f402e7}</v>
+            <v n="GeneratedGlobalTheVisuVarlistGuid">{a4bac178-bd33-40ba-b469-5cbe09d8efc3}</v>
+            <v n="GeneratedGlobalVisuConstants">{e95bc3d3-de04-43c8-a920-75fc935a3a36}</v>
+            <d n="GeneratedAllElementsEntries" t="Hashtable" />
+            <o n="VisuRegDesc" t="GenericFbDescription">
+              <d n="FbMethods" t="CaseInsensitiveHashtable" ckt="String" cvt="Guid">
+                <v>FB_Exit</v>
+                <v>be10706c-a7a6-41db-94bb-d5d37a827665</v>
+                <v>FB_Init</v>
+                <v>17149275-21b1-4227-995e-a28b95480244</v>
+                <v>FB_Reinit</v>
+                <v>2bea67a3-b62f-415b-a147-2ff5982fc286</v>
+              </d>
+              <d n="FbProperties" t="CaseInsensitiveHashtable" />
+              <v n="FbName">"NotImportant"</v>
+              <v n="FbGuid">{58baf351-6aaa-4070-b587-6c84cf87706e}</v>
+            </o>
+            <v n="VisuRegisterGvl">{1171d871-23da-4133-a331-a6dc374d8190}</v>
+            <n n="SettingsPou" />
+            <n n="MemManPou" />
+            <o n="InputsPou" t="GenericFbDescription">
+              <d n="FbMethods" t="CaseInsensitiveHashtable" ckt="String" cvt="Guid">
+                <v>abstrGetDefaultCursor</v>
+                <v>f6175b9b-88dd-4c83-a769-3677b910662c</v>
+                <v>ExecuteDialogClosed</v>
+                <v>14d8de63-8272-44f0-9821-15d3a5075642</v>
+                <v>ExecuteKeyDown</v>
+                <v>bad415c9-9aa6-44dc-a580-ad285f372da3</v>
+                <v>ExecuteKeyUp</v>
+                <v>a5d848d2-4176-46e2-b2ce-f4b01d0f251e</v>
+                <v>ExecuteLooseCapture</v>
+                <v>683ffcd9-bbc0-4a46-b61c-6a2b769f368d</v>
+                <v>ExecuteMouseClick</v>
+                <v>a53ecc00-ecf6-4230-8a19-38691095e8be</v>
+                <v>ExecuteMouseDblClick</v>
+                <v>6769345a-c581-49d9-ab12-b0a3319d15d7</v>
+                <v>ExecuteMouseDown</v>
+                <v>fd25c063-0733-434f-a2f5-0c0938540532</v>
+                <v>ExecuteMouseEnter</v>
+                <v>ea3ca2d1-b1c4-42aa-8f15-82a4b0edf0fd</v>
+                <v>ExecuteMouseLeave</v>
+                <v>ee8ba0bf-fe64-4238-ba71-50753ba93fb4</v>
+                <v>ExecuteMouseMove</v>
+                <v>6e94c515-5eca-413c-bdad-0a376010cdb7</v>
+                <v>ExecuteMouseUp</v>
+                <v>e57464dc-d553-4f83-a141-07a18af87e74</v>
+                <v>ExecuteValueChanged</v>
+                <v>399114d5-bd1f-4a4d-8733-5ce7e2ee1f74</v>
+                <v>GetElementInfo</v>
+                <v>359f6a5e-42e3-4b37-b876-5ee2b762d9f5</v>
+                <v>Initialize</v>
+                <v>dce78853-2818-483f-bad8-7b08c000e3f4</v>
+              </d>
+              <d n="FbProperties" t="CaseInsensitiveHashtable" />
+              <v n="FbName">"NotImportant"</v>
+              <v n="FbGuid">{4121808a-0152-47c2-9652-22d8f25b2f26}</v>
+            </o>
+            <v n="DialogDut">{60568410-5a88-4df7-8739-4eccdf57bb71}</v>
+          </o>
+          <v n="LastUsedIdForIdentifier">8</v>
+          <o n="TextDocument" t="TextDocument">
+            <v n="TextBlobForSerialisation">"VAR_IN_OUT
+	
+END_VAR"</v>
+            <n n="LineInfoPersistence" />
+          </o>
+          <v n="GvlCreated">false</v>
+          <n n="LMEntry" />
+          <v n="ProfileCompatibilityId">4140216668L</v>
+          <v n="LMVerMinor">0</v>
+          <v n="LMVerMajor">1</v>
+          <o n="Hotkeys" t="HotkeyConfiguration">
+            <v n="IdMin">481037385728L</v>
+            <v n="IdMax">549755813887L</v>
+            <v n="Id">481037385728L</v>
+            <v n="IdMask">549754765312L</v>
+            <v n="IdStep">1048576L</v>
+            <l2 n="Inputs" />
+          </o>
+          <o n="VisuSizeManager" t="VisualObjectSizeManager">
+            <d2 n="Size" ckt="Int32" cvt="VisualObjectSize">
+              <v>0</v>
+              <o>
+                <v n="Width">1913</v>
+                <v n="Height">685</v>
+              </o>
+              <v>1</v>
+              <o>
+                <v n="Width">1913</v>
+                <v n="Height">685</v>
+              </o>
+              <v>2</v>
+              <o>
+                <v n="Width">1913</v>
+                <v n="Height">685</v>
+              </o>
+            </d2>
+            <v n="Version">2</v>
+          </o>
+          <n n="FrameInterfaceDataModel" />
+        </o>
+      </Data>
+      <TypeList>
+        <Type n="ArrayList">System.Collections.ArrayList</Type>
+        <Type n="BackgroundSettings">{1038f12c-dd4b-4f96-87a3-a350fe8f3552}</Type>
+        <Type n="Boolean">System.Boolean</Type>
+        <Type n="Byte">System.Byte</Type>
+        <Type n="CaseInsensitiveHashtable">{7df88604-7ac5-4e36-91c4-55e4fdad3e68}</Type>
+        <Type n="ComplexInput">{1de566f6-72a7-494c-9353-9a418172c96e}</Type>
+        <Type n="GeneratedLanguageModelEntriesData">{703465dc-4679-4ff2-bcc3-c57d0a204da3}</Type>
+        <Type n="GenericFbDescription">{40d6dd8d-dfd0-493a-8e29-c9a35e1e6539}</Type>
+        <Type n="GenericVisualElem">{f86c2928-8614-4cca-824b-e819ac4d58c4}</Type>
+        <Type n="Guid">System.Guid</Type>
+        <Type n="Hashtable">System.Collections.Hashtable</Type>
+        <Type n="HotkeyConfiguration">{6b108d46-58af-4e41-a3f4-174d8f160cc4}</Type>
+        <Type n="Int32">System.Int32</Type>
+        <Type n="Int64">System.Int64</Type>
+        <Type n="String">System.String</Type>
+        <Type n="TextDocument">{f3878285-8e4f-490b-bb1b-9acbb7eb04db}</Type>
+        <Type n="UInt32">System.UInt32</Type>
+        <Type n="VisualElemCollection">{ef9d0b20-c96e-48db-b361-2ded4063150e}</Type>
+        <Type n="VisualElemList">{f285c9a3-7019-446b-b98c-ccec3a0af8fa}</Type>
+        <Type n="VisualElemMember">{c694e3a2-5c0b-4177-ab35-cb06bd5a6a02}</Type>
+        <Type n="VisualElemMemberCollection">{a4b83bea-3742-489c-9fe8-d96d68dba7ab}</Type>
+        <Type n="VisualElemMemberList">{17e26cd1-bb9b-47fe-a3d5-18fcd63b9c96}</Type>
+        <Type n="VisualObject">{f18bec89-9fef-401d-9953-2f11739a6808}</Type>
+        <Type n="VisualObjectSize">{6ad3e88f-aee2-4766-a7ea-a8790037ef51}</Type>
+        <Type n="VisualObjectSizeManager">{5f612b0e-b404-455f-8177-27864e9f5332}</Type>
+      </TypeList>
+    </XmlArchive>
+    <ObjectProperties>
+      <XmlArchive>
+        <Data>
+          <o xml:space="preserve" t="VisualProperty">
+            <v n="VisuUsageType">0</v>
+            <v n="SizeX">1024</v>
+            <v n="SizeY">768</v>
+            <v n="IsStartVisu">false</v>
+            <v n="VisuSizeMode" t="VisualVisuSizeMode">AutoDetect</v>
+            <v n="Internal">false</v>
+            <v n="DialogIsOpaque">false</v>
+            <v n="DialogIsOpaqueIsSet">false</v>
+            <v n="UseParentSizeProperties">true</v>
+            <n n="ToolboxCategory" />
+            <n n="ToolboxImageId" />
+            <v n="IsCustomCategory">false</v>
+          </o>
+        </Data>
+        <TypeList>
+          <Type n="Boolean">System.Boolean</Type>
+          <Type n="Int32">System.Int32</Type>
+          <Type n="VisualProperty">{477d844b-9b2a-407e-90a4-d36fd6dde2fc}</Type>
+          <Type n="VisualVisuSizeMode">{34718b76-91f6-43de-8c65-b77e0b1ee621}</Type>
+        </TypeList>
+      </XmlArchive>
+    </ObjectProperties>
+  </Visu>
+</TcPlcObject>

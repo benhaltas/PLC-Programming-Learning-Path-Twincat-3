@@ -1,9 +1,5 @@
 # TwinCAT 3 - PLC Programming Learning Path
 
-![TwinCAT 3](https://img.shields.io/badge/TwinCAT%203-005B9F?style=for-the-badge&logo=beckhoff&logoColor=white)
-![IEC 61131-3](https://img.shields.io/badge/IEC_61131--3-Structured_Text-blue?style=for-the-badge)
-![Industry 4.0](https://img.shields.io/badge/Industry_4.0-Smart_Factory-success?style=for-the-badge)
-
 This repository serves as my personal **Industrial Automation Laboratory**. It documents my step-by-step progression from basic digital I/O handling to advanced Motion Control and Machine Safety, developed during my **M.Eng. in Industry 4.0** studies. 
 
 All projects are programmed using **Structured Text (ST)** within the Beckhoff TwinCAT 3 environment.

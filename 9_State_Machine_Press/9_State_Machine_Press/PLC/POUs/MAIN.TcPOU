@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{095df4c1-833b-4a92-a873-3657299c788b}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	iState : INT := 0;
+	bStartButton : BOOL;
+	bSensorTop : BOOL := TRUE;
+	bSensorBottom : BOOL;
+	bPistonDown : BOOL;
+	bPistonUp : BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[CASE iState OF
+	0:
+		bPistonDown := FALSE;
+		bPistonUp := FALSE;
+		
+		IF bStartButton AND bSensorTop THEN
+			iState := 10;
+		END_IF
+		
+	10:
+		bPistonDown := TRUE;
+		bSensorTop := FALSE;
+		
+		IF bSensorBottom THEN
+			bPistonDown := FALSE;
+			iState := 20;
+		END_IF
+		
+	20:
+		bPistonUp := TRUE;
+		bSensorBottom := FALSE;
+		
+		IF bSensorTop THEN
+			bPistonUp := FALSE;
+			iState := 0;
+		END_IF		
+END_CASE]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

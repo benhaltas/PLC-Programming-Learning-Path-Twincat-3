@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{91985950-1f0c-4719-8dd8-725f5508eb01}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	fbBandMotor : FB_Motor;
+	fbOfenMotor : FB_Motor;
+	
+	bBandStart : BOOL;
+	bBandStop : BOOL;
+	bBandErr : BOOL;
+	bBandReset : BOOL;
+	
+	bOfenStart : BOOL;
+	bOfenStop : BOOL;
+	bOfenErr : BOOL;
+	bOfenReset : BOOL;
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[fbBandMotor(
+	bStart := bBandStart,
+	bStop := bBandStop,
+	bThermalErr := bBandErr,
+	bReset := bBandReset
+);
+
+fbOfenMotor(
+	bStart := bOfenStart,
+	bStop := bOfenStop,
+	bThermalErr := bOfenErr,
+	bReset := bOfenReset
+);]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

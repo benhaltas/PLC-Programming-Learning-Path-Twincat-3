@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{993eedfb-eeed-41f8-bea8-574c8c4d1a69}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+    axisVirtualMotor : AXIS_REF; 
+    
+    fbPower : MC_Power;
+    bEnable : BOOL := TRUE;    
+
+    fbMove  : MC_MoveAbsolute;
+    bExecuteMove : BOOL;        
+    fTargetPosition : LREAL;     
+
+    iState      : INT := 0;     
+    bAutoStart  : BOOL;        
+    fbWaitTimer : TON;           
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[fbPower(
+    Axis := axisVirtualMotor,
+    Enable := bEnable,
+    Enable_Positive := bEnable,
+    Enable_Negative := bEnable,
+    Override := 100.0
+);
+
+
+fbMove(
+    Axis := axisVirtualMotor,
+    Execute := bExecuteMove,
+    Position := fTargetPosition,
+    Velocity := 100.0
+);
+
+
+fbWaitTimer(IN := (iState = 20), PT := T#2S);
+
+
+CASE iState OF
+    
+    0: 
+        bExecuteMove := FALSE; 
+        IF bAutoStart THEN
+            bAutoStart := FALSE;      
+            fTargetPosition := 150.5; 
+            bExecuteMove := TRUE;     
+            iState := 10;             
+        END_IF
+        
+    10: 
+        IF fbMove.Done THEN      
+            bExecuteMove := FALSE;    
+            iState := 20;             
+        END_IF
+        
+    20: 
+        IF fbWaitTimer.Q THEN         
+            fTargetPosition := 0.0;  
+            bExecuteMove := TRUE;    
+            iState := 30;             
+        END_IF
+        
+    30: 
+        IF fbMove.Done THEN           
+            bExecuteMove := FALSE;    
+            iState := 0;              
+        END_IF
+
+END_CASE]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

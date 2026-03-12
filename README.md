@@ -1,4 +1,4 @@
-# ⚙️ TwinCAT 3 - PLC Programming Learning Path
+# TwinCAT 3 - PLC Programming Learning Path
 
 ![TwinCAT 3](https://img.shields.io/badge/TwinCAT%203-005B9F?style=for-the-badge&logo=beckhoff&logoColor=white)
 ![IEC 61131-3](https://img.shields.io/badge/IEC_61131--3-Structured_Text-blue?style=for-the-badge)
@@ -10,7 +10,7 @@ All projects are programmed using **Structured Text (ST)** within the Beckhoff T
 
 ---
 
-## 📚 Curriculum & Project Breakdown
+## Curriculum & Project Breakdown
 
 To ensure a solid foundation in industrial automation, I structured my learning path into three distinct phases:
 
@@ -41,7 +41,7 @@ To ensure a solid foundation in industrial automation, I structured my learning 
 
 ---
 
-## 🏆 The Capstone Project
+## The Capstone Project
 This learning path directly led to my comprehensive Capstone Project. If you want to see all these skills combined into a single, fully functional IIoT simulation, please check out my main repository:
 👉 **[Smart Factory Process Control Simulation](LİNKİ_BURAYA_EKLE)** *(<-- O ana projenin linkini buraya koy)*
 

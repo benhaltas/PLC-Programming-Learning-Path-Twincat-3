@@ -39,7 +39,6 @@ To ensure a solid foundation in industrial automation, I structured my learning 
 
 ## The Capstone Project
 This learning path directly led to my comprehensive Capstone Project. If you want to see all these skills combined into a single, fully functional IIoT simulation, please check out my main repository:
-👉 **[Smart Factory Process Control Simulation](LİNKİ_BURAYA_EKLE)** *(<-- O ana projenin linkini buraya koy)*
 
 ---
 **Ahmed Haltas** | Mechanical Engineer & Automation Enthusiast 

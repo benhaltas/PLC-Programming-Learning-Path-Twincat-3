@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{92ad98ed-130f-4aa1-a549-2c21972d48e1}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	
+	bHardwareButton AT %I* : BOOL;
+	
+	bHmiButton : BOOL;
+	
+	bMainMotor AT %Q* : BOOL;
+	
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[bMainMotor := bHardwareButton or bHmiButton;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{c1a724ba-de2d-431f-b553-64bb221c2c09}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	bStartButton : BOOL;
+	bStopButton : BOOL;
+	
+	bSystemActive : BOOL;
+	
+	bHorn : BOOL;
+	bMotor : BOOL;
+	
+	fbStartupTimer : TON;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF bStopButton THEN
+	bSystemActive := FALSE;
+
+ELSIF bStartButton THEN
+	bSystemActive := TRUE;
+END_IF
+
+fbStartupTimer(IN := bSystemActive, PT := T#5S);
+
+bHorn := bSystemActive AND NOT fbStartupTimer.Q;
+
+bMotor := bSystemActive AND fbStartupTimer.Q;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

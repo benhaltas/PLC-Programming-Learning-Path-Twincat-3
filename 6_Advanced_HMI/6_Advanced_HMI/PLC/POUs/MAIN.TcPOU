@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{329ee81f-6c4b-411e-8d0f-ec979ee02565}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	fActualValue : REAL;
+	fTargetValue : REAL := 50.0 ;
+	fTolerance : REAL := 2.0 ;
+	
+	bTargetReached : BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF (fActualValue >= (fTargetValue - fTolerance)) AND (FaCTUALvALUE <= (fTargetValue + fTolerance)) THEN
+	bTargetReached := TRUE;
+ELSE
+	bTargetReached := FALSE;
+END_IF]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{ca07d3ee-51f3-4065-a77c-59eacd3ac4a8}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	axisVirtualMotor : AXIS_REF;
+	fbPower : MC_Power;
+	fbMoveAbs : MC_MoveAbsolute;
+	bEnable : BOOL;
+	bMoveStart : BOOL;
+	fTargetLocation : LREAL := 250.5;
+	fLocation : LREAL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[fbPower(
+	Axis := axisVirtualMotor,
+	Enable := bEnable,
+	Enable_Positive := bEnable,
+	Enable_Negative := bEnable,
+	Override := 100.0
+);
+
+fbMoveAbs(
+	Axis := axisVirtualMotor,
+	Execute := bMoveStart,
+	Position := fTargetLocation,
+	Velocity := 100.0,
+	Acceleration := 100.0,
+	Deceleration := 100.0,
+	Jerk := 100.0
+);
+
+fLocation := axisVirtualMotor.NcToPlc.ActPos;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{869b9f79-2134-4d6a-adc1-da32829edf0d}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+    axisVirtualMotor : AXIS_REF;
+    fbPower          : MC_Power;
+    bEnable          : BOOL;
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF NOT GVL_Safety.bSafety_EStopPressed THEN
+    GVL_Safety.bSafety_MotorPowerOK := FALSE; 
+    
+ELSIF GVL_Safety.bSafety_ResetCmd THEN
+    GVL_Safety.bSafety_MotorPowerOK := TRUE;
+END_IF
+
+
+fbPower(
+    Axis := axisVirtualMotor,
+
+    Enable := bEnable AND GVL_Safety.bSafety_MotorPowerOK, 
+    Enable_Positive := bEnable AND GVL_Safety.bSafety_MotorPowerOK,
+    Enable_Negative := bEnable AND GVL_Safety.bSafety_MotorPowerOK,
+    Override := 100.0
+);]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

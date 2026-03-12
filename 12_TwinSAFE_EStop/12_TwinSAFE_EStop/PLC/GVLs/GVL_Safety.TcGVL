@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <GVL Name="GVL_Safety" Id="{f0b82053-1603-414d-8b32-b06d74c3b850}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	bSafety_EStopPressed AT %Q* : BOOL;
+	bSafety_ResetCmd AT %Q* : BOOL;
+	bSafety_MotorPowerOK AT %I* : BOOL;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

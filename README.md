@@ -41,5 +41,5 @@ To ensure a solid foundation in industrial automation, I structured my learning 
 This learning path directly led to my comprehensive Capstone Project. If you want to see all these skills combined into a single, fully functional IIoT simulation, please check out my main repository:
 
 ---
-**Ahmed Haltas** | Mechanical Engineer & Automation Enthusiast 
+**Ahmed Haltas** | Mechanical Engineer & Automation 
 📫 [LinkedIn Profile](https://www.linkedin.com/in/ahmedhaltas/)
